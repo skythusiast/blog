@@ -1,5 +1,5 @@
 +++
-title = "Skywire Miner: Hardware for the Next Internet"
+title = "Skywire майнер: Оборудование для Следующего Интернета"
 tags = [
     "Skywire",
     "Skycoin Mining",
@@ -13,123 +13,130 @@ categories = [
 bounty = 4
 +++
 
-*Sign up to our mailing list for Skywire Miner updates: http://eepurl.com/c4DyAv*
+*Подпишитесь на нашу рассылку новостей о Skywire майнере: http://eepurl.com/c4DyAv*
 
-How can we create a truly free and open internet? To answer this question, we
-developed Skywire, the new alternative internet. Skywire is a groundbreaking,
-novel technology that takes control from large internet service providers (ISPs)
-and gives it back to the users. Its peer-to-peer model promotes net neutrality
-and sharing of content without blocking, slowdowns, or censorship. Skywire’s
-open-access network preserves privacy and encourages free speech. Our mission in
-creating Skywire is to shape the internet’s future for the better.
+Как мы можем создать действительно свободный и открытый интернет? Чтобы ответить 
+на этот вопрос, мы разработали Skywire, новый альтернативный интернет. Skywire — это 
+новаторская и оригинальная технология, которая забирает контроль у крупных 
+провайдеров интернет-услуг (ISP) и отдает его обратно пользователям. Его одноранговая 
+модель способствует сетевому нейтралитету и совместному использованию контента без 
+блокирования, замедления или цензуры. Сеть открытого доступа Skywire сохраняет 
+конфиденциальность и поощряет свободу слова. Наша миссия в создании Skywire 
+заключается в том, чтобы сформировать будущее Интернета лучшим.
 
-[Skywire](https://github.com/skycoin/skywire)’s revolutionary new networking protocol is already changing the internet
-as we know it. The protocol is based on Multi-Protocol Label Switching (MPLS).
-Benefits of MPLS include speed, quality of service, reliability, and security.
-Skywire goes beyond these standards to deliver an even faster, better network.
-It’s designed for high performance and maximum privacy, allowing users to bypass
-ISPs and take control of their experience, essentially becoming their very own
-ISP.
+Революционный новый сетевой протокол [Skywire](https://github.com/skycoin/skywire) уже меняет Интернет, как мы его знаем. 
+Протокол основан на многопротокольной коммутации по меткам (MPLS). Преимущества 
+MPLS включают скорость, качество обслуживания, надежность и безопасность. Skywire 
+выходит за рамки этих стандартов, чтобы обеспечить еще более быструю и лучшую сеть. 
+Он разработан для обеспечения высокой производительности и максимальной 
+конфиденциальности, позволяя пользователям обойти Интернет-провайдеров и взять под 
+свой контроль свой опыт, по сути стать для себя собственным Интернет-провайдером.
 
-Skycoin is the currency of Skywire, giving it a practical application beyond just
-a digital currency. When the user forwards traffic or provide network resources,
-he or she receives Skycoin. Likewise, when the user consumes network resources or
-media, he or she spends Skycoin. Users can maximize their coins in two ways:
-having high bandwidth in high-traffic areas, or having highly sought-after
-content.
+Skycoin — это валюта Skywire, дающая ему практическое применение за пределами 
+просто цифровой валюты. Когда пользователь пересылает трафик или предоставляет 
+сетевые ресурсы, он или она получает Skycoin. Аналогично, когда пользователь 
+потребляет сетевые ресурсы или носители, он или она тратит Skycoin. Пользователи могут 
+максимизировать свои монеты двумя способами: иметь высокую пропускную 
+способностью в зонах с высоким трафиком или иметь высоко востребованный контент.
 
 ![Skywire miner](https://i.imgur.com/ASFEeYi.jpg)
 
-The Skywire “miner” is meticulously designed and configured to provide a backbone
-for the new internet. Its custom-built hardware exceeds technical specifications
-to deliver maximum power and performance. Skywire functions as a “miner” for
-Skycoins. It acts as a specialized VPN, using the following hardware
-configuration:
+Skywire «майнер» тщательно разработан и настроен на создание основы для нового 
+Интернета. Его изготовленное на заказ оборудование превосходит технические 
+характеристики, обеспечивающие максимальную мощность и производительность. 
+Skywire функционирует как «майнер» для Skycoins. Он действует как специализированный 
+VPN, используя следующую конфигурацию оборудования:
 
-- 8 CPU boards
-- 2 GB of RAM per board
-- 4 CPU cores per board
-- 64 GB of storage per board
-- 64-bit Linux (Alpine Linux)
-- Gigabit ethernet, 8+1 port switch
+- 8-процессорные платы
+- 2 ГБ оперативной памяти на плате
+- 4-ядерные процессоры на плате
+- 64 ГБ памяти на плате
+- 64-разрядная Linux (Alpine Linux)
+- Гигабитный Ethernet, сетевой коммутатор на 8+1 портов
 
-Each board features an ARM processor, 2 GB of RAM, and anywhere from 32 to 256 GB
-flash storage. The hardware is segmented in such a way that even if one service
-is compromised, the other services on the same machine can’t be. An OpenWRT
-router with strict packet forwarding rules and access control increases security.
-The setup can be further customized to consist of 4, 8, 16, or 32 boards.
+Каждая плата оснащена процессором ARM, 2 ГБ оперативной памяти и флэш-памятью от 
+32 до 256 ГБ. Аппаратное обеспечение сегментировано таким образом, что даже если 
+одна служба подвержена риску, других служб на одном компьютере не может быть. 
+Роутер с OpenWRT со строгими правилами пересылки пакетов и контролем доступа 
+повышает безопасность. Кроме того, майнер может быть собран с 4, 8, 16 или 32 платами.
 
 ![Skywire miner](https://i.imgur.com/2zj4CUV.jpg)
 
-Users can deploy nodes manually, but automatic deployment is just around the
-corner. [Sky-Messenger](https://github.com/skycoin/net) will provide a chatbot
-that allows users to peer clusters by public key. Once metering and settlement is
-implemented, Skywire will generate coins for operating the network.
+Пользователи могут развернуть узлы вручную, но автоматическое развертывание не за 
+горами. [Sky-Messenger](https://github.com/skycoin/net) предоставит чатбота, который позволит пользователям 
+группировать кластеры с помощью открытого ключа. После осуществления учета и 
+расчетов, Skywire будет генерировать монеты для работы сети.
 
-Plans are already in place for second-generation hardware, which will include an
-OLED screen that displays RAM/CPU/Bandwidth and Skycoins per hour, an OpenWRT
-router, SATA ports on the board for at least 4 CPU boards, and 32 and 64 board
-models. The network runs on its own internal internet with dedicated hardware. In
-the future, the above hardware configuration will be extended to support physical
-wireless mesh networks.
+Уже имеют место планы по оборудованию второго поколения, которое будет включать 
+OLED-экран, который отображает ОЗУ/ЦПУ/Пропускную способность и количество Skycoin 
+в час,  OpenWRT роутер, порты SATA на плате для как минимум 4-процессорных плат и 
+модели на 32 и 64 платы. Сеть работает в собственном внутреннем интернете с 
+выделенным оборудованием. В будущем вышеуказанная аппаратная конфигурация будет 
+расширена для поддержки физических беспроводных меш сетей.
 
-Skywire distributes content faster and more anonymously than other alternatives.
-It does this by combining two powerful components: Aether and Skynet. Aether is a
-peer-to-peer replicated object system that powers the distribution of anonymous
-and immutable web content. Traditional internet apps for video streaming,
-messaging, and other services can all be run on Aether. Skynet, the second
-component, forms the backbone of the distributed networking system. It’s a
-source-routed, public MPLS network built in a unique namespace and on a new
-networking stack. Skynet users essentially function as their own ISPs.
+Skywire распространяет контент быстрее и более анонимно, чем другие альтернативы. Он 
+делает это, объединяя два мощных компонента: Aether и Skynet. Aether — это 
+одноранговая реплицированная объектная система, которая обеспечивает 
+распределение анонимного и неизменяемого веб-контента. Традиционные интернет-
+приложения для потоковой передачи видео, обмена сообщениями и других сервисов 
+могут работать на Aether. Skynet, второй компонент, образует основу распределенной 
+сетевой системы. Это общедоступная сеть MPLS, созданная в уникальном пространстве
+имен и в новом сетевом стеке. Пользователи Skynet по существу функционируют как свои 
+собственные Интернет-провайдеры.
 
-Aether and Skynet can be run separately, but Skywire combines them to form an
-indestructible network. With Skywire, a local cache holds resources without
-connecting to the external internet. File downloads are copied directly into the
-local cache. Peers who are looking for that file can get it from you and pass it
-along the network. By leveraging peer-to-peer technology in an innovative and
-unique way, Skywire provides a viable internet alternative that’s secure, fast,
-and sustainable.
+Aether и Skynet можно запускать отдельно, но Skywire объединяет их, чтобы создать
+неразрушимую сеть. В Skywire локальный кеш хранит ресурсы без подключения к
+внешнему интернету. Загрузка файлов копируется непосредственно в локальный кэш.
+Пользователи, которые ищут этот файл, могут получить его от вас и передать его по сети.
+Благодаря использованию технологий одноранговой сети инновационным и уникальным
+образом, Skywire обеспечивает жизнеспособную альтернативу интернету, которая
+является безопасной, быстрой и устойчивой.
 
-The internet’s future is balanced between large ISPs that restrict content for
-profit and cutting-edge network technology that brings the internet to you, the
-user. Skywire is at the vanguard of this revolution. The truth is, we don’t need
-to rely on ISPs to explore the internet. With Skywire’s networking protocol,
-we’re creating a free, global, decentralized internet experience that’s unlimited
-by the current market. Our vision for Skywire goes beyond transformation. As we
-continue to develop this trailblazing technology, one thing becomes clear:
-Skywire won’t just change the internet. It will reinvent it.
+Будущее Интернета балансирует между крупными интернет-провайдерами, которые
+ограничивают контент для получения прибыли и передовыми сетевыми технологиями,
+которые приносят Интернет вам, пользователям. Skywire находится в авангарде этой
+революции. По правде говоря, нам не нужно полагаться на интернет-провайдеров, чтобы
+исследовать Интернет. С сетевым протоколом Skywire мы создаем бесплатный,
+глобальный, децентрализованный опыт использования интернета, который не ограничен
+текущим рынком. Наше видение Skywire выходит за рамки трансформации. По мере того
+как мы продолжаем развивать эту потрясающую технологию, становится ясно одно —
+Skywire не просто изменит Интернет. Он переизобретет его.
 
-### Details
+### Детали
 
-We want the Skywire miner released in the next 6 months.  Ideally it would
-be released within the next 3 months, but testing alone could take a few months.
-We also need to work out the logistics of assembly and shipping.
+Мы хотим выпустить Skywire майнер в течение следующих 6 месяцев. В идеале он будет
+выпущен в течение следующих 3 месяцев, но только тестирование может занять
+несколько месяцев. Нам также необходимо разработать логистику сборки и доставки.
 
-The 6 months target is still a soft date.  Until the hardware and software is
-entering the full testing phase, we do not want to promise any date. We will not
-be collecting orders until we are confident about when the miners can be delivered.
+Цель в 6 месяцев это все еще плавующие сроки. Пока аппаратное и программное
+обеспечение не войдет в полную стадию тестирования, мы не хотим обещать какую-либо
+дату. Мы не будем собирать заказы, пока не будем уверены в том, когда майнеры смогут
+быть доставлены.
 
-*Join the [Skycoin Telegram](https://t.me/Skycoin) for discussion of the Skywire miner and network.*
+*Присоединяйтесь к [Skycoin Telegram](https://t.me/Skycoin) для обсуждения Skycoin майнеров и сети.*
 
-There will be 300 units available for purchase. When we are ready to take orders,
-a form on the website will allow you to register for one.
+Для покупки будет доступно 300 майнеров. Когда мы будем готовы принять заказы,
+форма на сайте позволит вам зарегистрироваться.
 
-The price will be 1 BTC for 1 unit.  Purchasers will receive:
+Цена будет составлять 1 BTC за 1 единицу. Покупатели получат:
 
-* Skywire miner
-* An amount of Skycoin equal to 1 BTC minus the hardware cost (estimated to be around $600), based on market rates at the time of purchase.
+* Skywire майнер
+* Количество Skycoin, равное 1 BTC, за вычетом стоимости оборудования
+(предположительно около 600 долларов США), исходя из рыночного курса на момент
+покупки.
 
-Nodes operating on the Skywire network will be receiving a network incentive reward
-to help build out the network, in addition to traffic forwarding payments.
-For the Skywire miners, we'd like to increase this network incentive reward.
-However, we're still working out a mechanism for distinguishing the Skywire miners
-from other nodes, which could be any machine on the network.
+Ноды, работающие в сети Skywire, будут получать вознаграждение за стимулирование
+сети, чтобы помочь построить сеть, в дополнение к платежам за пересылку трафика. Для
+майнеров Skywire мы хотели бы увеличить эту премию за стимулирование сети. Тем не
+менее, мы по-прежнему разрабатываем механизм для различения майнеров Skywire от
+других узлов, которые могут быть любой машиной в сети.
 
-The value and structure of the general network incentive reward is not yet specified.
-More information on this will be in a future release.
+Ценность и структура вознаграждения за общее вознаграждение в сети пока не
+определены. Дополнительная информация об этом будет представлена в будущем
+сообщении.
 
-### Errata
+### Ссылки
 
-- *[More pictures of the Skywire miner](https://imgur.com/a/mpnzh)*
+- *[Больше картинок Skywire майнера](https://imgur.com/a/mpnzh)*
 - *[Skywire Github](https://github.com/skycoin/skywire)*
 - *[Sky-Messenger Github](https://github.com/skycoin/net)*
